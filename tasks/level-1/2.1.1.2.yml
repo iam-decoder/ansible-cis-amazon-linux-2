@@ -10,6 +10,7 @@
   when: cis_enable_ntp and not cis_enable_chrony
   tags:
     - level-1
+    - section-2
     - "2.1.1.2"
     - scored
 
@@ -21,6 +22,7 @@
   when: cis_enable_ntp and not cis_enable_chrony
   tags:
     - level-1
+    - section-2
     - "2.1.1.2"
     - scored
 
@@ -32,5 +34,6 @@
   when: cis_enable_ntp and not cis_enable_chrony
   tags:
     - level-1
+    - section-2
     - "2.1.1.2"
     - scored
